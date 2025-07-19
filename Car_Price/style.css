@@ -1,0 +1,53 @@
+/* style.css */
+
+/* Background Image Styling */
+.stApp {
+    background: url("https://images.pexels.com/photos/10902841/pexels-photo-10902841.jpeg") no-repeat center center fixed;
+    background-size: cover;
+    opacity: 0.97;
+}
+
+/* Main container styles */
+.block-container {
+    background-color: rgba(82, 80, 90, 0.85);
+    padding: 2rem;
+    border-radius: 15px;
+}
+
+/* Header Text */
+h1 {
+    color: #1673cf;
+    font-size: 36px;
+    text-align: center;
+}
+
+/* Customize Input Labels */
+.css-15zrgzn {
+    color: #333;
+    font-weight: 600;
+}
+
+/* Button Styling */
+.stButton>button {
+    background-color: #0072C6;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 12px;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.stButton>button:hover {
+    background-color: #005999;
+    color: #000000;
+}
+
+/* Prediction result box */
+[data-testid="stSuccess"] {
+    background-color: #0c348b;
+    color: #0c581e;
+    font-size: 22px;
+    border-radius: 10px;
+    padding: 15px;
+}
