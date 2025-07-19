@@ -16,7 +16,9 @@ def load_local_css(file_name):
     except FileNotFoundError:
         st.warning("⚠️ style.css not found. Default styling applied.")
 
-load_local_css("style.css")
+style_path = os.path.join(os.path.dirname(__file__), "style.css")
+st.write("🔍 Loading from:", style_path)
+load_local_css(style_path)
 
 # === Brand encoding map ===
 brand_map = {
