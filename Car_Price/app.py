@@ -76,6 +76,5 @@ if st.button("🔍 Predict Price"):
 
         predicted_price = model.predict(input_df)[0]
         st.success(f"💰 **Predicted Selling Price**: ₹ {predicted_price:,.2f}")
-        st.balloons()
     except Exception as e:
         st.error(f"❌ Prediction failed: {e}")
